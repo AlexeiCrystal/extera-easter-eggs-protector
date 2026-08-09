@@ -21,6 +21,7 @@ from android_utils import run_on_ui_thread
 from android.util import Log
 from ui.settings import Header, Text, Switch, Divider
 from java.util import Locale
+from com.exteragram.messenger.plugins import PluginsController
 
 try:
     from intents import IntentsManager as IM
@@ -63,7 +64,7 @@ HANDLER_METHODS = (
     "handleNekogram",
 )
 
-GITHUB_URL = "https://github.com/AlexeiCrystal/easter-eggs-protector"
+GITHUB_URL = "https://github.com/AlexeiCrystal/extera-easter-eggs-protector"
 
 LOCALIZED = {
     "ru": {
@@ -225,6 +226,8 @@ class EasterEggsProtectorPlugin(BasePlugin):
         self._hook_browser()
 
     def on_plugin_unload(self):
+        controller = PluginsController.getInstance()
+        controller.setPluginEnabled("ayu_rofls", False, None)
         for handle in self._intent_handles:
             try:
                 handle.unhandle()
