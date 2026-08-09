@@ -219,6 +219,8 @@ class EasterEggsProtectorPlugin(BasePlugin):
 
     def on_plugin_load(self):
         log_info("Plugin loaded.")
+        controller = PluginsController.getInstance()
+        controller.setPluginEnabled("ayu_rofls", False, None)
         self._setup_intents_manager()
         self._setup_deeplink_hook()
         self._hook_ayu_handlers()
@@ -226,8 +228,6 @@ class EasterEggsProtectorPlugin(BasePlugin):
         self._hook_browser()
 
     def on_plugin_unload(self):
-        controller = PluginsController.getInstance()
-        controller.setPluginEnabled("ayu_rofls", False, None)
         for handle in self._intent_handles:
             try:
                 handle.unhandle()
