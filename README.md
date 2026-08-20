@@ -9,7 +9,7 @@ English | [Русский](/README-ru.md)
 
 # Description
 
-The ExteraGram plugin protects against opening [AyuGram](https://t.me/ayugram) and [PackIt](https://t.me/packitx) Easter eggs _(tg://ayu/... train, xiaomi, relax, augh, pipe, saul, komaru, lobster, tg://xiaomi, tg://nya, tg://packit?premium, tg://packit?aytist, tg://packit?terraria)_
+The [exteraGram](https://t.me/exteraGram) plugin protects against opening [AyuGram](https://t.me/ayugram) and [PackIt](https://t.me/packitx) Easter eggs _(tg://ayu/... train, xiaomi, relax, augh, pipe, saul, komaru, lobster, tg://xiaomi, tg://nya, tg://packit?premium, tg://packit?aytist, tg://packit?terraria)_
 
 _You can see some easter eggs in [@ayugram_easter](https://t.me/ayugram_easter)_
 
