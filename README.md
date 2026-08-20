@@ -14,7 +14,7 @@ The [exteraGram](https://t.me/exteraGram) plugin protects against opening [AyuGr
 _You can see some easter eggs in [@ayugram_easter](https://t.me/ayugram_easter)_
 
 # Requirements
-- ExteraGram 11.12.0 and above
+- exteraGram 11.12.0 and above
 
 # How It Works
 
