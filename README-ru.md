@@ -9,12 +9,12 @@
 
 # Описание
 
-Плагин ExteraGram который защищает от открытия пасхалок [AyuGram](https://t.me/ayugram) и [PackIt](https://t.me/packitx) _(tg://ayu/... train, xiaomi, relax, augh, pipe, saul, komaru, lobster, tg://xiaomi, tg://nya, tg://packit?premium, tg://packit?aytist, tg://packit?terraria)_
+Плагин [exteraGram](https://t.me/exteraGram) который защищает от открытия пасхалок [AyuGram](https://t.me/ayugram) и [PackIt](https://t.me/packitx) _(tg://ayu/... train, xiaomi, relax, augh, pipe, saul, komaru, lobster, tg://xiaomi, tg://nya, tg://packit?premium, tg://packit?aytist, tg://packit?terraria)_
 
 _Некоторые пасхалки можно увидеть в [@ayugram_easter](https://t.me/ayugram_easter)_
 
 # Требования
-- ExteraGram 11.12.0 и выше
+- exteraGram 11.12.0 и выше
 
 # Как это работает
 
